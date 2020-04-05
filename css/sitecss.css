@@ -1,0 +1,189 @@
+
+/*BODY*/	
+        body {
+            width: 90%;
+            font-family: "Trebuchet MS", Helvetica, sans-serif;
+        }
+
+        .container{
+			width:99%;			
+        }
+        
+    /*HEADER*/			
+            div.header{
+                position: fixed;
+                top: 0;
+                left: 0.5em;
+                padding:0em 0.5em;
+                min-height: 5em;
+                height: 7em;
+                text-align: center;
+                width: 99%;       
+                
+                background-image: url("pink-tulips-on-quilted-blanket.jpg");
+                background-repeat: no-repeat;
+                background-size: 99%;  
+
+            }
+            
+        /*header*/	    
+            header {
+                font-family: "Comic Sans MS", cursive, sans-serif;
+                font-size: 0.7em;
+                letter-spacing: 0.3em;
+                word-spacing: -0.5em;
+                color: #D5636D;
+                font-weight: 700;
+                text-decoration: none;
+                font-style: italic;
+                font-variant: small-caps;
+                text-transform: capitalize;
+                text-shadow: 0.5em 0.7em 0.8em #faf9f9;
+            }
+
+        /*navigation*/	
+            nav{
+                color: white;
+                text-align: center;
+                width: 99%;
+                padding: 0.1em;
+                background-color: #644708;
+            }
+            
+            nav ul{
+                list-style-type: none;
+                padding-left: 1em;
+                margin: 0;
+            }
+            
+            nav ul li{
+                display:inline-block;
+                background-color: #644708;
+            }
+            
+            nav ul li a{
+                background-color:#644708;
+                color: #eee;
+                text-decoration: none;
+                padding:0 1em;	
+                font-weight:bold;
+                text-transform: uppercase;
+                font-size: 1.2em;
+            }
+            
+    /*ASIDE*/		
+            aside{
+                position: fixed;
+                padding-top: 7em;
+                left: 0;         
+                display: inline-block;
+                width: 20%;
+                min-width: 10%;
+                max-width: 25%;
+                margin: 0.5em;
+            }
+
+            aside ul li{
+                list-style-type: none;
+                padding-left: 0;
+                margin: 0;
+                padding-top: 0.5em;
+            }
+            
+            aside ul li a , aside ol li a {
+                color:#644708;
+                text-decoration: none;
+            }
+
+            aside ol li{
+                padding-left: 0;
+                margin: 0;
+                padding-top: 1em;
+            }
+            
+            
+
+    /*MAIN*/		
+            div.main{
+                padding-top: 10em;
+                padding-left: 30%;
+                margin: 1em;
+                display: inline-block;
+                width: 70%;
+                padding-bottom: 10em;
+            }
+
+            .promotion, .reflection {
+                padding-bottom: 1em;
+            }
+
+            .answer{
+                color: #D5636D;
+            }
+
+
+        /*products image*/
+                .products{
+                    display: inline-block;
+                    height : 15em;
+                    padding: 1em 2em;
+                }
+
+                .products img {
+                    height : 12em;
+                    border: none;
+                    }
+
+                .products a {
+                text-decoration: none;
+                    }
+                    
+        /*subsctibe*/
+                #showError{
+                    display: inline;
+                    color: #eb0404;
+                    font-size: 0.7em;
+                }
+                .subscribe {
+                    margin-top: 5em;
+                }
+                input,textarea {
+                    margin-top: 0.9em;
+                    border: 0.1em solid #dee7ec;
+                }
+                .contact-submit {
+                    background-color: #f1a85a;
+                    color: #f6fcff;
+                    width: 7em;
+                }
+                textarea{
+                    width: 75%;
+                }
+
+    /*FOOTER*/		
+            footer{		
+                color: white;
+                text-align: center;
+                width: 99%;
+                padding-left: 5em;
+                margin-left: 2%;
+                background-color: #644708;
+            }
+            
+            footer a{
+                background-color:#644708;
+                color: #eee;
+                text-decoration: none;
+                padding:0 0.5em;	
+                font-weight: bold;
+                font-size: 0.9em;
+            }
+            
+/*FUNCTION*/
+        a:hover {
+            color: #b00878;
+            text-decoration: underline;
+        }
+
+
+        
