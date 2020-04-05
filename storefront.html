@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>Final Assessment:storefront  (NAKAZAWA) MAILHOT</title>
+	<link rel="stylesheet" href="css/sitecss.css" type='text/css' media='screen'>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="./validation.js"></script>
+</head>
+
+<body>
+    <div class="container">
+<!-- Header -->
+        <div class ="header">
+            <header>
+                <h1> Welcome to Mypage: WEB222NDD Final Assessment </h1>
+            </header>
+            <nav>
+                <ul>
+                    <li><a href="./storefront.html">HOME</a></li>
+                    <li><a href="./reflection.html">Reflection</a></li>
+                </ul>
+            </nav>
+         </div>
+<!-- Aside-->
+        <aside>
+            <h3>Products Category</h3>
+            <ul>
+                <li><a href=#>Living Room</a></li>
+                <li><a href=#>Kitchen</a></li>
+                <li><a href=#>Bed Room</a></li>
+                <li><a href=#>Bath Room</a></li>
+                <li><a href=#>Kids Room</a></li>
+                <li><a href=#>Entrance</a></li>
+                <li class="shopping-cart"><A href=#><i class="material-icons">add_shopping_cart</i>Shopping cart</a></li>
+            </ul>
+           
+        </aside>
+
+
+<!-- Main contents -->
+        <div class="main">
+
+            <!-- promotion -->
+            <section class="promotion">
+                <h2>SIGN UP FOR OUR NEWSLETTER, GET 10% OFF YOUR NEXT ORDER!</h2>
+                <p>Sign up to our Newsletter and get 10% off your next order!*<br />
+                    Once you've confirmed your subscription, you'll shortly receive a discount code to use on your next order.<br />
+                    After that, we send out a Newsletter once every few months.<br />
+                    We promise never to spam you or pass on your details.<br />
+                    <a href=#>Read our Privacy Policy</a><br /></p>
+            </section><!-- end of promotion -->
+
+
+            <!-- collection -->      
+            <section class="collection">
+                <h2>INTERIOR DESIGNER'S SELLECTION</h2>
+                <!-- No 1 -->
+                <div class="products">
+                    <img src="pics/yellow-sofa-with-throw-pillows.jpg" alt="Sofa Pillow Set" />
+                    <p><a href=#>Sofa Pillow Set</a><br>CAD 45.00</p>
+                </div>
+                <!-- No 2 -->   
+                <div class="products">
+                    <img src="pics/yellow-pillow-bedside-table.jpg" alt="iber Side Table" />
+                    <p><a href=#>Fiber Side Table</a><br>CAD 132.00</p>
+                </div>
+                <!-- No 3 -->
+                <div class="products">
+                    <img src="pics/teak-headboard-table.jpg" alt="Stone Side Table" />
+                    <p><a href=#>Stone Side Table</a><br>CAD 222.00</p>
+                </div>
+                <!-- No 4 -->
+                <div class="products">
+                    <img src="pics/natural-white-sofa-on-wood-frame.jpg" alt="Sofa: White" />
+                    <p><a href=#>Sofa: White</a><br>CAD1220 .00</p>
+                </div>
+                <!-- No 5 -->
+                <div class="products">
+                    <img src="pics/little-seat-in-the-corner.jpg" alt="Wall Shelf" />
+                    <p><a href=#>Wall Shelf</a><br>CAD 209.00</p>
+                </div>               
+                <!-- No 6 -->
+                <div class="products">
+                    <img src="pics/blush-coloured-couch-with-blankets.jpg" alt="Blanket" />
+                    <p><a href=#>Blanket</a><br>CAD 125.00</p>
+                </div>
+                <!-- No 7 -->
+                <div class="products">
+                    <img src="pics/large-grey-sofa-by-brick-wall.jpg" alt="Sofa Table" />
+                    <p><a href=#>Sofa Table</a><br>CAD 1129.00</p>
+                </div>
+                <!-- No 8 -->
+                <div class="products">
+                    <img src="pics/wooden-chair-by-pink-wall.jpg" alt="Chair" />
+                    <p><a href=#>Chair </a><br>CAD 76.00</p>
+                </div>
+                <!-- No 9 -->
+                <div class="products">
+                    <img src="pics/bedroom-with-heart-pillows.jpg" alt="Picture Set" />
+                    <p><a href=#>Picture Set</a><br>CAD 980.00</p>
+                </div>
+                <!-- No 10 -->               
+                <div class="products">
+                    <img src="pics/livingroom-tray-with-plant-and-game-controllers.jpg" alt="Tray"/>
+                    <p><a href=#>Tray</a><br>CAD 35.00</p>
+                </div>
+                <!-- No 11-->
+                <div class="products">
+                    <img src="pics/bathrobe-on-bathroom-door.jpg" alt="Bathroom hanger" />
+                    <p><a href=#>Bathroom hanger</a><br>CAD 150.00</p>
+                </div>
+
+            </section><!-- end of collection -->
+
+            <!-- subscribe --> 
+            <section class = "subscribe">       
+                <h3 class="signup-title">SIGNUP</h3>
+                <p id="showError"></p>
+            <!-- Start Form-->                   
+                    <form name="signup" id="subscribe" action="" method ="POST" >
+            <!-- First Name-->
+                            <label>First Name: </label>
+                            <input type="text" name="fname" id="fname" required="required" onchange="validateFirstname();"/> <br>                        
+            <!-- Last Name-->
+                            <label>Last Name:</label>  
+                            <input type="text" name="lname" id="lname" required="required" onchange="validateLastname();"/>  <br> 
+            <!-- User Name-->
+                            <label>User Name: </label>
+                            <input type="text" name="uname" id="uname" required="required" onchange="validateUsername();"/><br>                             
+            <!-- Password-->
+                            <label for="password">Password:</label>
+                            <input type="password" name="password" id="password"  size="6" value="" required="required" onchange="validatePassword();"/><br>
+                            
+                            <label for="password2" class="pass2">Please Enter The Password Again:</label>
+                            <input type="password" name="password2" id="password2"  size="6" value="" required="required" onchange="validatePassword2();"/><br>
+                            <br>                    
+            <!-- Email address-->
+                            <label id="forEmail">Email address:</label>
+                            <input type="email" name="email" id= "email" size="30" required="required" /><br/>
+            <!-- Age-->           
+                            <label>Age:</label>
+                            <input  type="number" name="age" id="age" min="16" max="60" required="required" onchange="validateAge();"/> <br>
+                            <br>
+            <!-- Inquiry-->
+                        <p>Inquiry / Comments</p>
+                        <textarea name="comments" rows="10">Please enter your comments in here...</textarea><br>
+            <!-- Submission / Reset-->                        
+                        <input type="submit" value="Submit Information" />
+                        &nbsp;&nbsp;
+                       <input type="reset"  value="    Reset   " onclick="clearShowErrors();"/>                    
+                    </form>
+            </section><!-- end of subscribe -->          
+            
+         </div><!-- end of main -->
+
+<!-- footer -->
+        <footer><a href="https://github.com/ChihiroMailhotN/WEB.git">©2020 - &lt;Chihiro Nakazawa Mailhot&gt; </a></footer>
+    </div>
+
+
+</body>
+</html>
