@@ -157,10 +157,11 @@
                 textarea{
                     width: 75%;
                 }
+
          /*reflection*/
-         #side1, #side2, #side3, #side4{
-            padding-top: 10em;
-         } 
+		 #side1, #side2, #side3, #side4{
+		    padding-top: 10em;
+		 } 
 
     /*FOOTER*/		
             footer{		
