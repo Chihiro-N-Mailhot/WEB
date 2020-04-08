@@ -27,7 +27,7 @@
             
         /*header*/	    
             header {
-                font-size: 1.1em;
+                font-size: 0.9em;
                 letter-spacing: 0.3em;
                 word-spacing: -0.5em;
                 color: rgb(255, 255, 255);
@@ -72,7 +72,7 @@
     /*ASIDE*/		
             aside{
                 position: fixed;
-                padding-top: 7em;
+                padding-top: 10em;
                 left: 0;         
                 display: inline-block;
                 width: 20%;
@@ -157,6 +157,10 @@
                 textarea{
                     width: 75%;
                 }
+         /*reflection*/
+         #side1, #side2, #side3, #side4{
+            padding-top: 10em;
+         } 
 
     /*FOOTER*/		
             footer{		
