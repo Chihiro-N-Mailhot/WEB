@@ -19,7 +19,6 @@
                 height: 7em;
                 text-align: center;
                 width: 99%;       
-                
                 background-image: url("pink-tulips-on-quilted-blanket.jpg");
                 background-repeat: no-repeat;
                 background-size: 99%;  
@@ -28,17 +27,16 @@
             
         /*header*/	    
             header {
-                font-family: "Comic Sans MS", cursive, sans-serif;
-                font-size: 0.7em;
+                font-size: 1.1em;
                 letter-spacing: 0.3em;
                 word-spacing: -0.5em;
-                color: #D5636D;
+                color: rgb(255, 255, 255);
                 font-weight: 700;
                 text-decoration: none;
                 font-style: italic;
                 font-variant: small-caps;
                 text-transform: capitalize;
-                text-shadow: 0.5em 0.7em 0.8em #faf9f9;
+                text-shadow: 0.1em 0.1em  #450711;
             }
 
         /*navigation*/	
